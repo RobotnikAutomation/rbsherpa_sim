@@ -58,12 +58,12 @@ Launch files that execute the complete simulation of the robot
   ROS_NAMESPACE=robot roslaunch rbsherpa_moveit_ur10 demo.launch
   ```
 
-  If you prefer to launch the rbsherpa XL, you can type:
+  If you prefer to launch the rbsherpa XL, you must source the params.env file located on rbsherpa_sim_bringup and type:
   ```bash
   roslaunch rbsherpa_sim_bringup rbsherpa_complete.launch robot_xacro:=rbsherpa_xl.urdf.xacro
   ```
 
-  The rbsherpa Xl can be launched with two UR arms, only this bi-arm option is available actually:
+  The rbsherpa Xl can be launched with two UR arms, only this bi-arm option is available actually (first you must source the params.env file located on rbsherpa_sim_bringup):
   ```bash
   roslaunch rbsherpa_sim_bringup rbsherpa_complete.launch robot_xacro:=rbsherpa_xl.urdf.xacro launch_arm_control:=true
   ``` 
