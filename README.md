@@ -71,7 +71,7 @@ Launch files that execute the complete simulation of the robot
   To plan trajectories with the bi-arm robot you can type:
 
   ```bash
-  ROS_NAMESPACE=robot roslaunch rbsherpa_xl_2ur10_moveit_config rbsherpa_xl_moveit_config.launch
+  ROS_NAMESPACE=robot roslaunch rbsherpa_xl_2ur10_e_moveit_config rbsherpa_xl_moveit_config.launch
   ```
 
 To switch between arms on RViz look for MotionPlanning > Planning Request > Planning Group and it will show you all the available groups (left_arm and right_arm).
