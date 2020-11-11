@@ -60,12 +60,12 @@ Launch files that execute the complete simulation of the robot
 
   If you prefer to launch the rbsherpa XL, you must source the params.env file located on rbsherpa_sim_bringup and type:
   ```bash
-  roslaunch rbsherpa_sim_bringup rbsherpa_complete.launch robot_xacro:=rbsherpa_xl.urdf.xacro
+  roslaunch rbsherpa_sim_bringup rbsherpa_complete.launch 
   ```
 
   The rbsherpa Xl can be launched with two UR arms, only this bi-arm option is available actually (first you must source the params.env file located on rbsherpa_sim_bringup):
   ```bash
-  roslaunch rbsherpa_sim_bringup rbsherpa_complete.launch robot_xacro:=rbsherpa_xl.urdf.xacro launch_arm_control:=true
+  roslaunch rbsherpa_sim_bringup rbsherpa_complete.launch launch_arm_control:=true
   ``` 
 
   To plan trajectories with the bi-arm robot you can type:
