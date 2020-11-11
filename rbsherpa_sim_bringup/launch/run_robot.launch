@@ -59,6 +59,7 @@
       <arg name="kinematics" value="$(arg kinematics)"/>
       <arg name="arm_controllers" value="$(arg arm_controllers)"/>
       <arg name="sim_arm_control" value="$(arg load_kinematics_file)" />
+      <arg name="robot_model" value="$(arg robot_model)"/>
     </include>
 
     <!-- pad -->
